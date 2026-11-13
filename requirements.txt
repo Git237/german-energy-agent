@@ -1,0 +1,7 @@
+langgraph>=0.6
+langchain>=0.3
+langchain-groq          # default: free Groq API (MODEL=groq:openai/gpt-oss-120b)
+# Optional providers (swap via the MODEL env var):
+# langchain-ollama      -> MODEL=ollama:qwen3     (fully local, free, GDPR-friendly)
+# langchain-anthropic   -> MODEL=anthropic:claude-sonnet-5-5
+# langchain-openai      -> MODEL=openai:<model>
